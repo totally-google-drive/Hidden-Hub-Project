@@ -1,0 +1,40 @@
+* {
+  font-family: sans-serif;
+}
+    
+body {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, lightgray , black);
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+
+p {
+  font-size: 35;
+  
+}
+
+button {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  background-color: gray;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  top: 50px;
+  left: 50px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+iframe {
+  background-color: black;
+}

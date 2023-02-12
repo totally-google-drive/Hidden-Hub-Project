@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://allfont.net/allfont.css?fonts=destroy" rel="stylesheet" type="text/css" />
+  <title>New Tab</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+  #settingsMenu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 20px;
+    background-color: darkgray;
+    background-image: linear-gradient(to right, #3d3d3d , gray , #3d3d3d);
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+  }
+</style>
+</head>
+
+<body>
+  <img src="other/resources/THEHIDDENHUB.png" alt="The Hidden Hub!" width="800px">
+    
+  <p style="font-size: 30px;">SOME PAGES MAY TAKE AWHILE TO LOAD. BE <strong style=" font-weight: bold;">PATIENT!</strong></p>
+
+  <div>(Request a website by asking you know who)</div>
+
+  <p></p>
+  
+  <button id="settingsButton" style="background-image: linear-gradient(to right, #292929 , gray , #292929);">v Show Settings v</button>
+<div id="settingsMenu" style="display: none;">
+  <form id="settingsForm">
+    <label style="color: lightgray;">
+      Background color:
+      <input type="color" name="backgroundColor" style="border-radius: 10px;">
+    </label>
+    <br>
+    <label style="color: lightgray;">
+      Font color:
+      <input type="color" name="fontColor" value="black">
+    </label>
+    <br>
+    <label style="color: lightgray;">
+      Font size:
+      <select name="fontSize" style="border-radius: 20px;">
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+      </select>
+    </label>
+    <br>
+    <label style="color: lightgray;">
+      Text align:
+      <input type="radio" name="textAlign" value="left">Left
+      <input type="radio" name="textAlign" value="center">Center
+    </label>
+    <br>
+    <label style="color: lightgray;">
+      White Logo:
+      <input type="checkbox" name="invertImages">
+    </label>
+    <br>
+    <button type="submit" style="font-size: 20px; background-color: green;">Apply</button>
+  </form>
+</div>
+
+  <p></p>
+
+  <button style="font-size: 15px;" onclick="changeLog()">ChangeLog</button>
+
+  <p style="color: red; font-weight: bold;">-------------------------------------------------------<strong style="color: blue;">------------------------------------------------------</strong></p>
+
+  <p></p>
+
+    <p style="display: inline; font-weight: bold; font-size: 22px;">TIME UNTIL <strong style=" color: red;">RUMBLE</strong><strong style=" color: blue;">VERSE</strong> IS GONE: 
+ </p>
+    <p style="display: inline; font-size: 18px; font-weight: bold;" id="days"></p>
+    <p style="display: inline; font-size: 15px;" id="hours"></p>
+    <p style="display: inline; font-size: 15px;" id="mins"></p>
+    <p style="display: inline; font-size: 15px;" id="secs"></p>
+    <h2 id="end"></h2>
+<script src="hh scripts/countdown.js"></script>
+
+<p style="color: blue; font-weight: bold;">------------------------------------------------------<strong style="color: red;">-------------------------------------------------------</strong></p>
+
+  <div style="font-size: 25px; font-weight: bold;">COMING SOON! | NEW TRAILER!!</div>
+  
+  <p></p>
+
+    <button style="background-color: red;" onclick="rumbleverse()">Rumbleverse Memories</button>
+
+  <div>(Coming Soon!) (GO FULLSCREEN!) (Headphones Required)</div>
+
+<p></p>
+  
+  <div style="font-size: 25px; font-weight: bold;">Chat Rooms</div>
+  
+  <p></p>
+  <!-- Button & Text -->
+  <button style="background-color: darkkhaki;" onclick="openGame()">Private Chat Room</button>
+  <!-- Any additional notes -->
+  <div>(Password Required) (Opens 2 tabs)</div>
+  
+  <p></p>
+  <!-- Button & Text -->
+    <button style="background-color: lightgreen;" onClick="public()">Public Chatroom</button>
+  <!-- Any additional notes -->
+  <div>(If you cant set your name, close and reopen the chatroom)</div>
+  
+  <p></p>
+<!-- Header or something -->
+  <div style="font-size: 25px; font-weight: bold;">Tools</div>
+
+  <p></p>
+  <!-- Button & Text -->
+    <button style="background-color: blue;" onclick="google()">Bing</button>
+  <!-- Any additional notes -->
+  <div>(Bing has to be used because google doesnt work) (Blocked websites are still blocked)</div>
+  
+  <p></p>
+<!-- Button & Text -->
+      <button style="background-color: darkgoldenrod;" onclick="link()">Link Inserter</button>
+<!-- Any additional notes -->
+  <div>(Allows you to put any link you want!) (Some websites may not function correctly) (All websites are unblocked!)</div>
+
+  <p></p>
+
+  <button style="background-image: linear-gradient(to right, red , gray);" onclick="youtube()">Youtube</button>
+  <!-- Any additional notes -->
+  
+  <div>(This website uses "Cloud Tube")</div>
+
+  <p></p>
+  
+  <!-- Button & Text -->
+    <button style="background-color: lightskyblue;" onclick="itch()">Flight Radar</button>
+
+<div>(For plane enthusiasts) (if size is incorrect press CTRL and - or + to zoom in or out)</div>
+
+  <p></p>
+  
+      <button style="background-image: linear-gradient(to right, rgb(164, 0, 0) 0%, rgb(53, 150, 39) 71%, rgb(17, 117, 23) 100%);" onClick="rumbleMusic()">Music Hub</button>
+  <!-- Any additional notes -->
+  <div>(Listen to Music!) (Also listen to featured songs from Rubleverse, and more!)</div>
+
+  <p></p>
+
+  <button style="background-color: #00A67E;" onClick="gpt()">ChatGPT</button>
+  <!-- Any additional notes -->
+  <div>(ask any questions! or none.)</div>
+  
+  <p></p>
+<!-- another header lol -->
+  <div style="font-size: 25px; font-weight: bold;">Games</div>
+
+  <p></p>
+ <!-- Button & Text --> 
+  <button style="background-color: darkgreen;" onclick="eagleCraft()">EagleCraft</button>
+  <!-- Any additional notes -->
+  <div>(if it says repl waking up, wait about a minute and reload the page)</div>
+  
+  <p></p>
+  
+
+
+  <P></P>
+  
+  <!-- Button & Text -->
+  <button style="background-color: darkred;" onClick="spookySchoolTest()">Spooky Ooky School</button>
+  <!-- Any additional notes -->
+  <div style="font-size: 20px;">(Test Version)</div>
+  
+  <div style="font-size: 15px;">!FULL VERSION COMING SOON!</div>
+  
+  <p></p>
+  
+  <button style="background-color: darkgray;" onClick="rotate()">Rotate</button>
+  <!-- Any additional notes -->
+  <div>(Its embed may not work correctly) (Some elements are in spanish?)</div>
+  
+  <p></p>
+
+    <button style="background-color: lightskyblue;" onClick="justFall()">Just Fall LOL</button>
+  <!-- Any additional notes -->
+  <div>(Use the chatroom to share party codes)</div>
+
+  <p></p>
+
+
+<script src="hh scripts/hh.js"></script>
+<script src="hh scripts/Setting.js"></script>
+
+</body>
+
+</html>

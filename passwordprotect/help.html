@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>New Tab</title>
+  <style>   
+    * {
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
+
+input[type=submit] {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  background-color: grey;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  top: 50px;
+  left: 50px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  color: white;
+}
+
+input[type=password] {
+    background-color: darkgray;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+}
+
+</style>
+</head>
+
+<body>
+  <script src="password.js"></script>
+  <p style="color: #ff9494; position: absolute; top: 60%; left: 40%; margin: -25px 0 0 -25px; font-size: 27px;">Try Again!</p>
+<form style="color: white; position: absolute; top: 50%; left: 40%; margin: -25px 0 0 -25px;">
+    <label style="font-size: 30px;" for="pswd">Enter the password: </label>
+  <p></p>
+    <input style="font-size: 20px; border-color: transparent;" type="password" id="pswd">
+    <input style="font-size: 20px;" type="submit" name="go" value="Open the HH!" onclick="checkPswd2();" />
+</form>
+</body>
+
+</html>

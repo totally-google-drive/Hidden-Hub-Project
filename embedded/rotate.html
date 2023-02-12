@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>New Tab</title>
+  <link href="rotate.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#button').click(function(){ 
+        if(!$('#iframe').length) {
+                $('#iframeHolder').html('<iframe style="background-color: lightgray; position: absolute; top: 900px; left: 5%;"width="1080" height="720" id="iframe" src="https://Anothernewtabbutcool.totallygoogledrive.repl.co/publicroom" width="700" height="450" frameborder="0"></iframe>');
+        }
+    });   
+});
+</script>
+<iframe style="position: absolute; top: 10%; left: 5%;"width="1080" height="720" id="game-iframe" src="https://games.crazygames.com/en_US/rotate/index.html" title="Rotate" scrolling="no" allow="autoplay; payment; fullscreen; microphone; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-read; clipboard-write;" allowfullscreen="" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin allow-downloads allow-popups" loading="eager" data-hj-allow-iframe="true" class="css-ab5nf2"></iframe>
+  <button id="button">Open ChatRoom</button>
+  <br>
+  <p></p>
+  <div id="iframeHolder"></div>
+</body>
+
+</html>
