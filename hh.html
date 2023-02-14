@@ -3,7 +3,7 @@
 
 <head>
     <link href="https://allfont.net/allfont.css?fonts=destroy" rel="stylesheet" type="text/css" />
-  <title>fart</title>
+  <title>Hidden Hub</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
   #settingsMenu {
@@ -18,6 +18,10 @@
     border-radius: 10px;
     width: 300px;
   }
+
+    .hidden {
+  display: none;
+}
 </style>
 </head>
 
@@ -46,11 +50,9 @@
     <label style="color: lightgray;">
       Font size:
       <select name="fontSize" style="border-radius: 20px;">
-        <option value="10">10</option>
-        <option value="12">12</option>
-        <option value="14">14</option>
-        <option value="16">16</option>
-        <option value="18">18</option>
+        <option value="12">Small</option>
+        <option value="16">Normal</option>
+        <option value="18">Large</option>
       </select>
     </label>
     <br>
@@ -71,7 +73,24 @@
 
   <p></p>
 
-  <button style="font-size: 15px;" onclick="changeLog()">ChangeLog</button>
+  
+  <button style="font-size: 15px; background-image: linear-gradient(to right, gray , #3d3d3d);" onclick="changeLog()">ChangeLog</button>
+
+  
+  <p></p>
+
+
+  <button id="show-div" style="font-size: 20px; background-color: darkgreen;">Show Announcements</button>
+
+<div id="content" class="hidden">
+  <div style="font-size: 25px; font-weight: bold;">"Daily" Announcements</div>
+  <p>Hello to anyone, and welcome to another daily announcements!</p>
+  <p>This is the second day! Please give feedback.</p>
+  <p>First off, big news. I have added a browser to the Hidden Hub! <br> You can access it with the "Browser" button!</p>
+  <p>Some more big news, I accidentally broke the hidden hub earlier today, <br>none of the buttons worked because I accidentally unlinked the scripts from the html file. oops.</p>
+  <p>Thats it for the daily announcements! Please give feedback please please please.</p>
+  <p>(also please check out the changelog)</p>
+</div>
 
   <p style="color: red; font-weight: bold;">-------------------------------------------------------<strong style="color: blue;">------------------------------------------------------</strong></p>
 
@@ -84,15 +103,17 @@
     <p style="display: inline; font-size: 15px;" id="mins"></p>
     <p style="display: inline; font-size: 15px;" id="secs"></p>
     <h2 id="end"></h2>
-<script src="hh scripts/countdown.js"></script>
+<script src="hh-scripts/countdown.js"></script>
 
 <p style="color: blue; font-weight: bold;">------------------------------------------------------<strong style="color: red;">-------------------------------------------------------</strong></p>
+
+<div id="buttons">
 
   <div style="font-size: 25px; font-weight: bold;">COMING SOON! | NEW TRAILER!!</div>
   
   <p></p>
 
-    <button style="background-color: red;" onclick="rumbleverse()">Rumbleverse Memories</button>
+    <button style="background-image: linear-gradient(to right, red , blue);" onclick="rumbleverse()">Rumbleverse Memories</button>
 
   <div>(Coming Soon!) (GO FULLSCREEN!) (Headphones Required)</div>
 
@@ -108,9 +129,12 @@
   
   <p></p>
   <!-- Button & Text -->
-    <button style="background-color: lightgreen;" onClick="public()">Public Chatroom</button>
+    <button style="background-color: lightgreen;" onClick="public()">Chatroom</button>
   <!-- Any additional notes -->
   <div>(If you cant set your name, close and reopen the chatroom)</div>
+
+  <p></p>
+
   
   <p></p>
 <!-- Header or something -->
@@ -130,10 +154,17 @@
 
   <p></p>
 
-  <button style="background-image: linear-gradient(to right, red , gray);" onclick="youtube()">Youtube</button>
+  <button style="background-image: linear-gradient(to right, red, gray);" onclick="youtube()">Youtube</button>
   <!-- Any additional notes -->
   
-  <div>(This website uses "Cloud Tube")</div>
+  <div>(requires 2 websites cuz school blocks) (This website uses "Cloud Tube") (DONT CLICK ON "...can't think of anything?")</div>
+
+  <p></p>
+
+ <!-- <button style="background-image: linear-gradient(to right, yellow, green, red);" onclick="browser()">Browser</button>
+  <!-- Any additional notes -->
+  <!--
+  <div>(most if not all websites should work) (use the url bar at the top to search)</div>-->
 
   <p></p>
   
@@ -160,7 +191,7 @@
 
   <p></p>
  <!-- Button & Text --> 
-  <button style="background-color: darkgreen;" onclick="eagleCraft()">EagleCraft</button>
+  <button style="background-image: linear-gradient(to bottom, green , #3d1c00);" onclick="eagleCraft()">EagleCraft</button>
   <!-- Any additional notes -->
   <div>(if it says repl waking up, wait about a minute and reload the page)</div>
   
@@ -191,9 +222,19 @@
 
   <p></p>
 
+  <button style="background-image: linear-gradient(to bottom, purple, green, orange);" onClick="clicker()">Kasper Clicker</button>
+  <!-- Any additional notes -->
+  <div>(The og the classic!)</div>
 
-<script src="hh scripts/hh.js"></script>
-<script src="hh scripts/Setting.js"></script>
+  <p></p>
+  <br>
+    
+</div>
+<!-------------- Script links --------------->
+<script src="hh-scripts/hh.js"></script>
+<script src="hh-scripts/Setting.js"></script>
+<script src="hh-scripts/announce.js"></script>
+<!-------------- Script links --------------->
 
 </body>
 

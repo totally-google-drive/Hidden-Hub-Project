@@ -167,7 +167,7 @@
         function youtube() {
       var win = window.open()
       win.document.title = "Youtube";
-      var url = "https://tube.cadence.moe/"
+      var url = "https://totallynewtabbutbuttons.totallygoogledrive.repl.co"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";
