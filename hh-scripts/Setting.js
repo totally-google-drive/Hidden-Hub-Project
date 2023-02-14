@@ -18,7 +18,7 @@ const invertImagesCheckbox = form.elements.invertImages;
 
 backgroundColorInput.value = localStorage.getItem("backgroundColor") || "dimgray";
 fontColorInput.value = localStorage.getItem("fontColor") || "black";
-fontSizeSelect.value = localStorage.getItem("fontSize") || "14";
+fontSizeSelect.value = localStorage.getItem("fontSize") || "16";
 for (const textAlignInput of textAlignInputs) {
   if (textAlignInput.value === localStorage.getItem("textAlign")) {
     textAlignInput.checked = true;

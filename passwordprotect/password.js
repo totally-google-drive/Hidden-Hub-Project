@@ -5,14 +5,22 @@
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {
              hidden();
+             closePasswordWindow();
         }
           //send to incorrect password page
         else{
             destroy();
         }
     }
+
+function closePasswordWindow() {
+    window.close();
+}
+
+
         function hidden() {
       var win = window.open()
+      win.document.title = "Hidden Hub";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/hh.html"
           //congrats you found the link too.
           //i hate you

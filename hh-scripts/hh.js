@@ -175,3 +175,27 @@
       iframe.src = url
       win.document.body.appendChild(iframe)
         }
+
+        function clicker() {
+      var win = window.open()
+      win.document.title = "Kasper Clicker";
+      var url = "https://orteil.dashnet.org/igm/?g=https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/kasperclicker.txt"
+      var iframe = win.document.createElement('iframe')
+      iframe.style.width = "100%";
+      iframe.style.height = "100%";
+      iframe.style.border = "none";
+      iframe.src = url
+      win.document.body.appendChild(iframe)
+        }
+
+        function browser() {
+      var win = window.open()
+      win.document.title = "Browser";
+      var url = "https://desp.icable.me/"
+      var iframe = win.document.createElement('iframe')
+      iframe.style.width = "100%";
+      iframe.style.height = "100%";
+      iframe.style.border = "none";
+      iframe.src = url
+      win.document.body.appendChild(iframe)
+        }
