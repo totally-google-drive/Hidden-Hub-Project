@@ -187,10 +187,12 @@
       iframe.src = url
       win.document.body.appendChild(iframe)
         }
-
+        //name of function
         function browser() {
       var win = window.open()
+          //Title of the tab
       win.document.title = "Browser";
+          //Link for the site
       var url = "https://desp.icable.me/"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
