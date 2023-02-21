@@ -1,6 +1,6 @@
         function openGame() {
       var win = window.open()
-      win.document.title = "Enter Password";
+      win.document.title = "!";
       var url = "https://totallynewtabforthethirdtime-666-111-777-111-100-555-003.totallygoogledrive.repl.co/passwordthingy"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -12,7 +12,7 @@
 
     function eagleCraft() {
       var win = window.open()
-      win.document.title = "Eaglecraft";
+      win.document.title = "!";
       var url = "https://eaglercraft-server.totallygoogledrive.repl.co"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -24,7 +24,7 @@
 
     function google() {
       var win = window.open()
-      win.document.title = "Bing";
+      win.document.title = "!";
       var url = "https://bing.com"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -36,7 +36,7 @@
 
         function public() {
       var win = window.open()
-      win.document.title = "Chatroom";
+      win.document.title = "!";
       var url = "https://Anothernewtabbutcool.totallygoogledrive.repl.co/publicroom"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -48,7 +48,7 @@
 
         function spookySchoolTest() {
       var win = window.open()
-          win.document.title = "Spooky Ooky School";
+          win.document.title = "!";
       var url = "https://playcanv.as/b/817620b0"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -70,7 +70,7 @@
 
     function link() {
       var win = window.open()
-      win.document.title = "Link Inserter";
+      win.document.title = "!";
       var url = "https://totallynewtab.totallygoogledrive.repl.co"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -82,7 +82,7 @@
 
     function itch() {
       var win = window.open()
-      win.document.title = "Flight Radar";
+      win.document.title = "!";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/embedded/radar.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -94,7 +94,7 @@
 
     function rotate() {
       var win = window.open()
-      win.document.title = "Rotate";
+      win.document.title = "!";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/embedded/rotate.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -106,7 +106,7 @@
 
         function rumbleverse() {
       var win = window.open()
-      win.document.title = "Rumbleverse Videos";
+      win.document.title = "!";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/rumbleversevideo.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -118,7 +118,7 @@
 
         function justFall() {
       var win = window.open()
-      win.document.title = "Just Fall";
+      win.document.title = "!";
       var url = "https://justfall.lol"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -130,7 +130,7 @@
 
         function rumbleMusic() {
       var win = window.open()
-      win.document.title = "Music Hub";
+      win.document.title = "!";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/rumbleversemusic.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -142,7 +142,7 @@
 
         function changeLog() {
       var win = window.open()
-      win.document.title = "Changelog";
+      win.document.title = "!";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/changelog.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -154,7 +154,7 @@
 
         function gpt() {
       var win = window.open()
-      win.document.title = "ChatGPT";
+      win.document.title = "!";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/gpt.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -166,7 +166,7 @@
 
         function youtube() {
       var win = window.open()
-      win.document.title = "Youtube";
+      win.document.title = "!";
       var url = "https://totallynewtabbutbuttons.totallygoogledrive.repl.co"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -178,7 +178,7 @@
 
         function clicker() {
       var win = window.open()
-      win.document.title = "Kasper Clicker";
+      win.document.title = "!";
       var url = "https://orteil.dashnet.org/igm/?g=https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/kasperclicker.txt"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
@@ -191,9 +191,9 @@
         function browser() {
       var win = window.open()
           //Title of the tab
-      win.document.title = "Browser";
+      win.document.title = "!";
           //Link for the site
-      var url = "https://desp.icable.me/"
+      var url = "https://htingamabober.totallygoogledrive.repl.co"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";

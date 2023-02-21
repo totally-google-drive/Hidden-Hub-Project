@@ -20,7 +20,7 @@ function closePasswordWindow() {
 
         function hidden() {
       var win = window.open()
-      win.document.title = "Hidden Hub";
+      win.document.title = "!";
       var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/hh.html"
           //congrats you found the link too.
           //i hate you
