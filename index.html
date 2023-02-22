@@ -35,14 +35,12 @@ input[type=password] {
 </style>
 </head>
 
-<body>
-  <script src="passwordprotect/password.js"></script>
-<form style="color: white; position: absolute; top: 50%; left: 40%; margin: -25px 0 0 -25px;">
-    <label style="font-size: 30px;" for="pswd">Enter the password: </label>
-  <p></p>
-    <input style="font-size: 20px; border-color: transparent;" type="password" id="pswd">
-    <input style="font-size: 20px;" type="submit" name="go" value="Open the HH!" onclick="checkPswd();" />
-</form>
+<body onload="auth()">
+<script>
+  function auth() {
+    window.open("https://authforhh.totallygoogledrive.repl.co", "_self");
+  }
+</script>
 </body>
 
 </html>
