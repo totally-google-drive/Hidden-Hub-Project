@@ -15,7 +15,7 @@
       const params = {
         username: "Visitbot9000",
         avatar_url: "",
-        content: "Someone visited the HiddenHub at: " + "             " + x
+        content: "Someone visited the HiddenHub at: " + "    " + x
       }
 
       request.open("POST", "https://discord.com/api/webhooks/1076764909557264505/WvvHdfAfkw7ZBAj2ESDrTzsJ6OJ6HESYujit57xaTBoqVDD0EMaZ2T1aPpKxT9iSNvpC");
