@@ -4,7 +4,7 @@
     
 body {
   height: 200px;
-  background-color: black; /* For browsers that do not support gradients */
+  background-color: black;
 }
 
 h1 {
