@@ -1,6 +1,6 @@
     // The data/time we want to countdown to
-    var countDownDate = new Date("Feb 28, 2023 10:00:00").getTime();
-
+//Old variable :(    var countDownDate = new Date("Feb 28, 2023 10:00:00").getTime();
+var countDownDate = new Date("Mar 2, 2023 12:00:00").getTime();
     // Run myfunc every second
     var myfunc = setInterval(function() {
 
@@ -26,6 +26,7 @@
         document.getElementById("hours").innerHTML = "" 
         document.getElementById("mins").innerHTML = ""
         document.getElementById("secs").innerHTML = ""
-        document.getElementById("end").innerHTML = "RUMBLEVERSE IS NOW GONE...";
+     // :(   document.getElementById("end").innerHTML = "RUMBLEVERSE IS NOW GONE...";
+        document.getElementById("end").innerHTML = "The Video is out now!";
     }
     }, 1000);

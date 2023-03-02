@@ -575,7 +575,7 @@ Buildings
                        cost:200000000000 kaspercash
                        on tick:yield 0.01 kaspercash
                        //IGNORE THIS PLEASE!!!//
-                       passive:multiply yield of itempencil by 25
+                       passive:multiply yield of itempencil by 250
                        //IGNORE!!//
                        req: have itembattlepass
                        icon:https://cdn.discordapp.com/attachments/898310907594166342/1035021811093618698/New_Project-4.png
