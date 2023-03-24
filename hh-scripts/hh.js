@@ -83,7 +83,7 @@
     function itch() {
       var win = window.open()
       win.document.title = "!";
-      var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/embedded/radar.html"
+      var url = "https://totally-google-drive.github.io/embedded/radar.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";
@@ -95,7 +95,7 @@
     function rotate() {
       var win = window.open()
       win.document.title = "!";
-      var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/embedded/rotate.html"
+      var url = "https://totally-google-drive.github.io/embedded/rotate.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";
@@ -107,7 +107,7 @@
         function rumbleverse() {
       var win = window.open()
       win.document.title = "!";
-      var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/rumbleversevideo.html"
+      var url = "https://totally-google-drive.github.io/other/rumbleversevideo.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";
@@ -131,7 +131,7 @@
         function rumbleMusic() {
       var win = window.open()
       win.document.title = "!";
-      var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/rumbleversemusic.html"
+      var url = "https://totally-google-drive.github.io/other/rumbleversemusic.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";
@@ -143,7 +143,7 @@
         function changeLog() {
       var win = window.open()
       win.document.title = "!";
-      var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/changelog.html"
+      var url = "https://totally-google-drive.github.io/other/changelog.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";
@@ -155,7 +155,7 @@
         function gpt() {
       var win = window.open()
       win.document.title = "!";
-      var url = "https://totallyaboutblank-nothing-else.totallygoogledrive.repl.co/other/gpt.html"
+      var url = "https://totally-google-drive.github.io/other/gpt.html"
       var iframe = win.document.createElement('iframe')
       iframe.style.width = "100%";
       iframe.style.height = "100%";
