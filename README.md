@@ -1,2 +1,2 @@
 # totally-google-drive.github.io
-Main thinga
+Please go to https://thehh.xyz
